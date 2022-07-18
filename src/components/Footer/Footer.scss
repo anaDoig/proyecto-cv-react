@@ -1,0 +1,14 @@
+@import '../../assets/scss/styles.scss';
+
+.footer {
+    background-color: $darkSkyBlue;
+    padding: 40px 0;
+    text-align: center;
+
+    p,
+    a {
+        color: $white;
+        font-family: $font-light;
+        font-size: 14px;
+    }
+}

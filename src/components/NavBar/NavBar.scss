@@ -1,0 +1,33 @@
+@import '../../assets/scss/styles.scss';
+
+.navbar {
+    background-color: rgba(125,180,181, 0.7);
+    padding: 40px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.main-nav {
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__item {
+        a {
+            color: $darkSkyBlue;
+            font-family: $font-regular;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: $lightSkyBlue;
+            font-size: 20px;
+
+            &:hover {
+                background-color: transparent;
+                color: $white;
+            }
+        }
+    }
+}

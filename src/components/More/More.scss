@@ -1,0 +1,29 @@
+@import '../../assets/scss/styles.scss';
+
+.more {
+    background-color: $lightSkyBlue;
+
+    .subtitle {
+        margin-bottom: 60px;
+    }
+}
+
+.skills {
+    border: 1px solid $darkSkyBlue;
+    padding: 15px;
+    height: 100%;
+
+    &__title {
+        font-size: 25px;
+        font-family: $font-bold;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        list-style-type: circle;
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
